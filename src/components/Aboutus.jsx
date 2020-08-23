@@ -6,6 +6,7 @@ import Header from "./Header";
 import WhyUs from "./WhyUs";
 import Workdone from "./Workdone";
 import Inmind from "./Inmind";
+import Testimonials from "./Testimonials";
 
 function Aboutus(){
     return <div>
@@ -14,6 +15,7 @@ function Aboutus(){
 <Contact />
 <WhyUs />
 <Workdone />
+<Testimonials />
 <Inmind />
 </div>
 }

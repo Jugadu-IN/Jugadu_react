@@ -5,10 +5,6 @@ import "./styles.css";
 import "./w3.css"
 import ContactUs from "./ContactUs";
 
-const animation={
-  
-}
-
 function Landing(){
 
 return <div className="container">
@@ -21,7 +17,7 @@ return <div className="container">
 </p> 
 </div> 
 <div>
-<ReactBootStrap.Button className="w3-animate-left" style={{backgroundColor:"#c77b00",fontSize:"16px", padding: "30px 56px", lineHeight: "0",marginTop:"40px"}} size="lg" >Contact Us</ReactBootStrap.Button>{' '}
+<ReactBootStrap.Button href="//api.whatsapp.com/send?phone=919990670099&text=Hey%20Jugadu%2c%20I%20have%20a%20query%20regarding%20:" className="w3-animate-left" style={{backgroundColor:"#c77b00",fontSize:"16px", padding: "30px 56px", lineHeight: "0",marginTop:"40px"}} size="lg" >Contact Us</ReactBootStrap.Button>{' '}
 </div>
     </div>
    <div className="col-lg-6">

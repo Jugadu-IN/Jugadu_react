@@ -11,6 +11,7 @@ import Testimonials from "./Testimonials";
 import Inmind from "./Inmind";
 import Aboutus from "./Aboutus";
 import Footer from "./Footer";
+import Api from "./Api";
 
 
 function Home(){
@@ -21,7 +22,10 @@ function Home(){
 <Contact />
 <WhyUs />
 <Workdone />
+<Testimonials />
 <Inmind />
+<Footer />
+<Api />
 
 
 

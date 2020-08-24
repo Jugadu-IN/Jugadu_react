@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dbef207dbf0f89049aabb24e9fd7e40",
+    "revision": "2da2f980608bb595d07c986c6dad51b7",
     "url": "/Jugadu_react/index.html"
   },
   {
-    "revision": "1b6879f8a5d79eaa3d65",
+    "revision": "00a0181e4e07f2d676cf",
     "url": "/Jugadu_react/static/css/2.ceb79488.chunk.css"
   },
   {
-    "revision": "7095cc6c1ea5b5f58d25",
+    "revision": "6c97a8cd9475f6c74626",
     "url": "/Jugadu_react/static/css/main.cd5e7050.chunk.css"
   },
   {
-    "revision": "1b6879f8a5d79eaa3d65",
-    "url": "/Jugadu_react/static/js/2.7fd37cd7.chunk.js"
+    "revision": "00a0181e4e07f2d676cf",
+    "url": "/Jugadu_react/static/js/2.35da90ca.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Jugadu_react/static/js/2.7fd37cd7.chunk.js.LICENSE.txt"
+    "url": "/Jugadu_react/static/js/2.35da90ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7095cc6c1ea5b5f58d25",
-    "url": "/Jugadu_react/static/js/main.c84af657.chunk.js"
+    "revision": "6c97a8cd9475f6c74626",
+    "url": "/Jugadu_react/static/js/main.f72f6059.chunk.js"
   },
   {
     "revision": "4b7a75a49beb8026b85f",

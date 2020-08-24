@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Jugadu_react/precache-manifest.f88e24ccf1fe274064c5844826b3ec0d.js"
+  "/Jugadu_react/precache-manifest.6d9d7f53ac337a96173e5c809d6f277f.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Jugadu_react/static/css/main.cd5e7050.chunk.css",
-    "main.js": "/Jugadu_react/static/js/main.c84af657.chunk.js",
-    "main.js.map": "/Jugadu_react/static/js/main.c84af657.chunk.js.map",
+    "main.js": "/Jugadu_react/static/js/main.f72f6059.chunk.js",
+    "main.js.map": "/Jugadu_react/static/js/main.f72f6059.chunk.js.map",
     "runtime-main.js": "/Jugadu_react/static/js/runtime-main.f8ad94fc.js",
     "runtime-main.js.map": "/Jugadu_react/static/js/runtime-main.f8ad94fc.js.map",
     "static/css/2.ceb79488.chunk.css": "/Jugadu_react/static/css/2.ceb79488.chunk.css",
-    "static/js/2.7fd37cd7.chunk.js": "/Jugadu_react/static/js/2.7fd37cd7.chunk.js",
-    "static/js/2.7fd37cd7.chunk.js.map": "/Jugadu_react/static/js/2.7fd37cd7.chunk.js.map",
+    "static/js/2.35da90ca.chunk.js": "/Jugadu_react/static/js/2.35da90ca.chunk.js",
+    "static/js/2.35da90ca.chunk.js.map": "/Jugadu_react/static/js/2.35da90ca.chunk.js.map",
     "index.html": "/Jugadu_react/index.html",
-    "precache-manifest.f88e24ccf1fe274064c5844826b3ec0d.js": "/Jugadu_react/precache-manifest.f88e24ccf1fe274064c5844826b3ec0d.js",
+    "precache-manifest.6d9d7f53ac337a96173e5c809d6f277f.js": "/Jugadu_react/precache-manifest.6d9d7f53ac337a96173e5c809d6f277f.js",
     "service-worker.js": "/Jugadu_react/service-worker.js",
     "static/css/2.ceb79488.chunk.css.map": "/Jugadu_react/static/css/2.ceb79488.chunk.css.map",
     "static/css/main.cd5e7050.chunk.css.map": "/Jugadu_react/static/css/main.cd5e7050.chunk.css.map",
-    "static/js/2.7fd37cd7.chunk.js.LICENSE.txt": "/Jugadu_react/static/js/2.7fd37cd7.chunk.js.LICENSE.txt",
+    "static/js/2.35da90ca.chunk.js.LICENSE.txt": "/Jugadu_react/static/js/2.35da90ca.chunk.js.LICENSE.txt",
     "static/media/BG_right.png": "/Jugadu_react/static/media/BG_right.d3d8c1ef.png",
     "static/media/aditya_rastogi.jpg": "/Jugadu_react/static/media/aditya_rastogi.2e3d1030.jpg",
     "static/media/aman_kumar.jpg": "/Jugadu_react/static/media/aman_kumar.1908b735.jpg",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.f8ad94fc.js",
     "static/css/2.ceb79488.chunk.css",
-    "static/js/2.7fd37cd7.chunk.js",
+    "static/js/2.35da90ca.chunk.js",
     "static/css/main.cd5e7050.chunk.css",
-    "static/js/main.c84af657.chunk.js"
+    "static/js/main.f72f6059.chunk.js"
   ]
 }

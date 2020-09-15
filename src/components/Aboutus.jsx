@@ -7,6 +7,7 @@ import WhyUs from "./WhyUs";
 import Workdone from "./Workdone";
 import Inmind from "./Inmind";
 import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 
 function Aboutus(){
     return <div>
@@ -17,6 +18,7 @@ function Aboutus(){
 <Workdone />
 <Testimonials />
 <Inmind />
+<Footer />
 </div>
 }
 export default Aboutus;

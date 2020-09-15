@@ -6,6 +6,7 @@ import {FaHome} from "react-icons/fa";
 import {FaMobileAlt} from "react-icons/fa";
 import {AiOutlineMail} from "react-icons/ai";
 import Inmind from "./Inmind";
+import Footer from "./Footer";
 
 
 
@@ -63,6 +64,7 @@ function ContactUs(){
 </div>
 </div>
 <Inmind />
+<Footer />
 </div>
 }
 export default ContactUs;

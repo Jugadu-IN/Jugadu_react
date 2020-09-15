@@ -8,27 +8,32 @@ import plus from "./plus.svg"
 const content=[{
     title:"WEBSITE DESIGNING",
     description:"Let us help you get your business online with a beautifully crafted and desgined website tailored to your needs and suited to your budget.",
-    image:seo
+    image:seo,
+    link:"/webdev"
 },
 {
     title:"APP DEVELOPMENT",
     description:"Get a beautifully crafted app for your idea or existing business and take it to new heights without emptying your pockets.",
-    image:app
+    image:app,
+    link:"/appdev"
 },
 {
     title:"INTERNET OF THINGS",
     description:"Boost your business with the power of IOT with our end to end IOT solutions making lifes better and smarter..",
-    image:digital
+    image:digital,
+    link:"/iotdev"
 },
 {
     title:"SEO",
     description:"Get a strong and powerful online presence and better visibility. Always stay ahead of your competitors.",
-    image:research
+    image:research,
+    link:"/seodev"
 },
 {
     title:"BRANDING",
     description:"Make your business a brand with the most suitable logo to branded mechandise and everything in between." ,
-    image:branding
+    image:branding,
+    link:"/brandingdev"
 },
 {
     title:"COMING SOON",

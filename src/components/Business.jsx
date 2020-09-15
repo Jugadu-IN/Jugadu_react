@@ -9,7 +9,7 @@ import app from "./app.svg";
 function Business(){
 
     function handler(Card){
-        return <Cards img={Card.image} title={Card.title} description={Card.description} />
+        return <Cards link={Card.link} img={Card.image} title={Card.title} description={Card.description} />
     }
 return <div className="">
         <div className="row d-flex justify-content-center">

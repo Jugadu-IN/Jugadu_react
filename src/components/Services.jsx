@@ -5,6 +5,7 @@ import Header from "./Header";
 import Business from "./Business";
 import WhyUs from "./WhyUs";
 import Inmind from "./Inmind";
+import Footer from "./Footer";
 
 function Services(){
 return <div>
@@ -13,6 +14,7 @@ return <div>
     <Business />
     <WhyUs />
     <Inmind />   
+    <Footer />
     </div>
 }
 export default Services;

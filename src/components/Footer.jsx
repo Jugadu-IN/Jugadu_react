@@ -1,12 +1,13 @@
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
+import {Link} from "react-router-dom";
 import "./styles.css";
 import footer from "./footer_bg.png";
 import Logo from './logo.png';
 import { AiOutlineFacebook,AiOutlineInstagram,AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer(){
-    return <div class="container pt-5">
+    return <div className="container pt-5">
     <div className="row">
     <div className="col-lg-3">
     <img style={{height:"40px"}} src={Logo} />
@@ -20,33 +21,33 @@ function Footer(){
     <div className="col-lg-3">
 <h4 className="pl-4" style={{color:"#012f5f",fontSize:"20px",fontWeight:"500"}}>Quick Links</h4>
 <ul>
-   <a href="/aboutus"> <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>About</li> </a>
-   <a href="/services"> <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Services</li></a>
-   <a href="/ourteam"><li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Our team</li></a>
-   <a href="#"><li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Blog</li> </a> 
-   <a href="/contact"> <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Contact</li> </a>
+   <Link to="/aboutus"> <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>About</li></Link>
+   <Link to="/services"> <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Services</li></Link>
+  <Link to="/ourteam"><li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Our team</li></Link>
+  <Link to="/"> <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Blog</li></Link> 
+   <Link to="/contact"> <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Contact</li> </Link>
 </ul>
 
     </div>
     <div className="col-lg-3">
 <h4  className="pl-4" style={{color:"#012f5f",fontSize:"20px",fontWeight:"500"}}>Support</h4>
 <ul>
-    <a href="#"><li className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Privary Policy</li> </a>
-   <a href="#"><li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Terms & Conditions</li> </a> 
-   <a href="#"> <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>SiteMap</li> </a>
-   <a href="#">  <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>FAQS</li></a>
-   <a href="#">   <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Contact Us</li></a>
+<Link to="/"> <li className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Privary Policy</li> </Link>
+<Link to="/"> <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Terms & Conditions</li> </Link>
+<Link to="/">  <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>SiteMap</li> </Link>
+<Link to="/">   <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>FAQS</li></Link>
+<Link to="/">   <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Contact Us</li></Link>
 </ul>
 
     </div>
     <div className="col-lg-3">
 <h4  className="pl-4" style={{color:"#012f5f",fontSize:"20px",fontWeight:"500"}}>Services</h4>
 <ul>
-<a href="#">  <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Website Development</li></a>
-<a href="#">   <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>App Development</li></a>
-<a href="#">    <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>IOT</li></a>
-<a href="#">  <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>SEO</li></a>
-<a href="#">   <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Branding</li></a>
+<Link to="/"><li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Website Development</li></Link>
+<Link to="/"> <li className="pt-3"  style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>App Development</li></Link>
+<Link to="/">  <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>IOT</li></Link>
+<Link to="/"><li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>SEO</li></Link>
+<Link to="/"> <li  className="pt-3" style={{listStyle:"none",color:"#868c98",fontWeight:"300"}}>Branding</li></Link>
 </ul>
 
     </div>

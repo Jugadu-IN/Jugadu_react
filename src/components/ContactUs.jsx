@@ -12,6 +12,7 @@ import Inmind from "./Inmind";
 
 function ContactUs(){
     return <div className="container">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 <Header />
 <div className="container">
 <h2 className="Heading text-center" style={{fontSize:"50px",fontWeight:"700",marginTop:"-100px"}}>Contact Us</h2>

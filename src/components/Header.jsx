@@ -2,7 +2,7 @@ import React from "react";
 import Logo from './logo.png';
 import * as ReactBootStrap from "react-bootstrap";
 import "./styles.css";
-
+import {Link} from "react-router-dom";
 
 var on= false;
 
@@ -18,32 +18,31 @@ function Header(){
     on=false;
   }
 }
-const Aboutus = () => <h1>About</h1>;
-    return <div className="container">  <header>
-  <ReactBootStrap.Navbar style={{backgroundColor:"white"}} variant="light">
-  <div className="container">
-    <ReactBootStrap.Navbar.Brand href="#home">
+    return  <div className="container">  
+  <ReactBootStrap.Navbar style={{backgroundColor:"white"}}  expand="lg">
+  <ReactBootStrap.Navbar.Brand href="#home">
       <img
-        alt=""
         src={Logo}
-        width="60"
-        height="60"
-        className="d-inline-block align-top "
+        width="70"
+        height="70"
+        className="d-inline-block align-top"
+        alt="React Bootstrap logo"
       />
-     <span className="text"></span> 
-    </ReactBootStrap.Navbar.Brand>
-    <ReactBootStrap.Nav className="ml-auto text ">
-      <ReactBootStrap.Nav.Link to="/"  className="width"  style={{color:"#002e5b"}} href="/">Home</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link to="/aboutus" className="width" style={{color:"#002e5b"}} href="aboutus">About Us</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link to="/services" className="width"  style={{color:"#002e5b"}} href="services">Services</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link to="/contact"  className="width" style={{color:"#002e5b"}} href="contact">Contact</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link to="/ourteam"  className="width"  style={{color:"#002e5b"}}href="ourteam">Our Team</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Button onMouseOver={handler} onMouseLeave={handler} className="Button" variant="primary" style={{backgroundColor:"#4043bc",transition:"0.5s"}}>Contact Us </ReactBootStrap.Button>{' '}
+      </ReactBootStrap.Navbar.Brand>
+  <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
+    <ReactBootStrap.Nav className="ml-auto">
+      <Link to="/"><ReactBootStrap.Nav className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}} >Home</ReactBootStrap.Nav></Link>
+      <Link to="/aboutus"><ReactBootStrap.Nav   className="pr-5 pt-1"style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>About</ReactBootStrap.Nav></Link> 
+      <Link to="/services"><ReactBootStrap.Nav   className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>Services </ReactBootStrap.Nav></Link>
+      <Link to="/contact"><ReactBootStrap.Nav  className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>Contact</ReactBootStrap.Nav></Link>
+      <Link to="/ourteam"> <ReactBootStrap.Nav  className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>Our Team</ReactBootStrap.Nav></Link>
+     <Link to="/contact"> <ReactBootStrap.Button onMouseOver={handler} onMouseLeave={handler} style={{backgroundColor:"#4043BC",fontFamily: "'Open Sans', sans-serif"}} type="button" className="button btn btn-lg btn-primary">Contact Us</ReactBootStrap.Button></Link>
     </ReactBootStrap.Nav>
-    </div>
-  </ReactBootStrap.Navbar>
+  </ReactBootStrap.Navbar.Collapse>
+</ReactBootStrap.Navbar>
    
-    </header>
+    
     </div>
 }   
 export default Header;

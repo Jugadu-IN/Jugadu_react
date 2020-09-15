@@ -5,7 +5,7 @@
     margin-right:65px;
 }
 .Heading{
-    font-size: 65px;
+    font-size: 5vw;
     font-weight: 700;
     color: #2b4b80;
     padding-top: 15%;
@@ -41,10 +41,31 @@
     border-radius: 10px;
     background-color: white;
   }
-.inmind{
-      background-image: linear-gradient(to right, #ff5c98 0%, #7b40c0 100%);
-      border-radius: "50px";
-}
+  
+
 .business{
     border-radius: "32px";
+}
+@media only screen and (max-width: 600px) {
+    .card {
+      float: none;
+      margin: 0 auto;
+    }
+    .Team{
+        float: none;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width:629px) {
+  img#optionalstuff {
+    display: none;
+  }
+}
+.jumbotron{
+  height: 300px;
+  width:auto;
+  background-image: url("./gradient.jpeg");
+  background-size: cover;
+  color:white;
+
 }

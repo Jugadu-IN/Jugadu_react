@@ -18,8 +18,8 @@ return <div >
         height="360.96"
         className="d-inline-block align-top "
       />
-      <div class="bottom-left">
-     <a class="Heading text-left"  onMouseOver={handle} style={{fontSize:"30px"}} href="#">{props.name}</a>
+      <div className="bottom-left">
+     <a className="Heading text-left"  onMouseOver={handle} style={{fontSize:"30px"}} href="#">{props.name}</a>
      <p style={{color:"grey"}}>{props.title}</p>
 
       </div>

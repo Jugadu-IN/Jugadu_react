@@ -6,11 +6,11 @@ import "./styles.css";
 function Contact(){ 
 
 return <div style={{paddingTop:"240px"}} class="container"> 
-<div class="row">
-<div class="col-lg-6">
-<img src={laptopimg} />
+<div className="row">
+<div className="col-lg-6">
+<img  className="img-fluid" src={laptopimg} />
 </div>
-<div class="col-lg-6 col-md-12">
+<div className="col-lg-6 col-md-12">
                         <div >
                             <h3 className="we-create-cap">We help you in taking your business to new heights.</h3>
                             <p style={{color:"#707B8E",margin:"0px 0px 56px"}}>We offer a wide variety of low cost and efficient digital solutions. Our top priority is customer satisfaction. We are

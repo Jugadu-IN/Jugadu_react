@@ -4,7 +4,7 @@ import next from "./next.svg";
 import app from "./app.svg";
 import * as ReactBootStrap from "react-bootstrap";
 function Cards(props){
-    return <ReactBootStrap.Card style={{ width: '20rem',height:"400px",border:"0" }} >
+    return <ReactBootStrap.Card className="col-lg-4 col-xs-6 boxy" style={{ width: '20rem',height:"400px",border:"0" }} >
     <ReactBootStrap.Card.Img className="container" style={{width:"100px",height:"100px"}} variant="top" src={props.img} />
     <ReactBootStrap.Card.Body>
       <ReactBootStrap.Card.Title> <h4 style={{color: "#2b4b80"}}>{props.title} </h4></ReactBootStrap.Card.Title>

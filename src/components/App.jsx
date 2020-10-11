@@ -29,10 +29,13 @@ import ankita from "./Teaminfo/ankita.js";
 import vishesh from "./Teaminfo/vishesh";
 import aditya from "./Teaminfo/aditya.js";
 import nikhil from "./Teaminfo/nikhil" ;
+import ScrollToTop from "./ScrollToTop.js";
+import amanjoshi from "./Teaminfo/amanjoshi.js";
 
 
 function App(){
     return <div>
+    <ScrollToTop />
    <Switch>
        <Route exact path="/" component={Home} />
        <Route path="/aboutus" component={Aboutus} />
@@ -55,10 +58,8 @@ function App(){
        <Route path="/vishesh" component={vishesh} />
       <Route path="/nikhil" component={nikhil} />
       <Route path="/aditya" component={aditya} />
-    
-         
+      <Route path="/amanjoshi" component={amanjoshi} />
    </Switch>
-
 
 
 

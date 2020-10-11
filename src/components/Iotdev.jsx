@@ -11,7 +11,7 @@ function Iotdev(){
 
 <div className="" >
 <div className="container">
-<div className=" row">
+<div className="pb-5 row">
 <div className="col-lg-6">
 <img id="optionalstuff" className="w3-animate-left img-fluid col-sm-0" src={bgright} style={{height:"400px",paddingTop:"",paddingLeft:""}} />
 </div>

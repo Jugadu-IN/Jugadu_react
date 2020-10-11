@@ -9,7 +9,7 @@ import Teamcards from  "../Teamcards";
 
 function vasu(){
     return <div className="container">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 <Header />
 
 <Information image={Teamcards[1].image} description={Teamcards[1].description} position={Teamcards[1].Position} name={Teamcards[1].name}/>

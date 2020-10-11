@@ -20,7 +20,7 @@ function Header(){
 }
     return  <div className="container">  
   <ReactBootStrap.Navbar style={{backgroundColor:"white"}}  expand="lg">
-  <ReactBootStrap.Navbar.Brand href="#home">
+  <Link to="/"><ReactBootStrap.Navbar.Brand>
       <img
         src={Logo}
         width="70"
@@ -29,6 +29,7 @@ function Header(){
         alt="React Bootstrap logo"
       />
       </ReactBootStrap.Navbar.Brand>
+      </Link>
   <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
     <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
     <ReactBootStrap.Nav className="ml-auto">

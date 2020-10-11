@@ -9,7 +9,7 @@ import Teamcards from "../Teamcards";
 
 function jatin(){
     return <div className="container">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 <Header />
 
 <Information image={Teamcards[3].image} description={Teamcards[3].description} position={Teamcards[3].Position} name={Teamcards[3].name} />

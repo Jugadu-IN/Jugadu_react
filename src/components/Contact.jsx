@@ -2,6 +2,7 @@ import React from "react";
 import laptopimg from "./we-create.png";
 import * as ReactBootStrap from "react-bootstrap";
 import "./styles.css";
+import {Link} from "react-router-dom";
 
 function Contact(){ 
 
@@ -21,7 +22,7 @@ return <div style={{paddingTop:"240px"}} class="container">
                             
                         </div>
                         <div >
-                        <ReactBootStrap.Button style={{padding:"30px 46px 30px 46px",lineHeight:"0",color:"white",backgroundColor:"#4043bc",transition:"0.5s"}} variant="warning">Contact Us</ReactBootStrap.Button>{' '}
+                      <Link to="/contact">  <ReactBootStrap.Button style={{padding:"30px 46px 30px 46px",lineHeight:"0",color:"white",backgroundColor:"#4043bc",transition:"0.5s"}} variant="warning">Contact Us</ReactBootStrap.Button>{' '} </Link>
                         </div>
                     </div>
 

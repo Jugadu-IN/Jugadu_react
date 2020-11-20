@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Jugadu-IN.github.io/Jugadu_react",
+  "homepage": ".",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +15,11 @@
     "react-icons": "^3.10.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
-    "predeploy":"npm run build",
-      "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

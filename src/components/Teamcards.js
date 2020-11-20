@@ -1,6 +1,6 @@
 import simerneet from "./Ourteam/simerneet.jpg";
 import vasu from "./Ourteam/vasu_goel.jpg";
-import mohit from "./Ourteam/mohit.jpg";
+import mohit from "./Ourteam/mohit.jpeg";
 import dhruv from "./Ourteam/dhruv_saharan.jpeg";
 import jatin from "./Ourteam/jatin_pathi.jpg";
 import gunjan from "./Ourteam/gunjan.jpg";

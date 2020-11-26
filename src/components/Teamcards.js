@@ -22,7 +22,7 @@ const Teamcards=[{
    Position:"Co-Founder",
    Location:"New Delhi,India",
    Link:"simerneet",
-   description:"Jugadu.in started as a platform to provide high quality digital solutions to business at affordable prices, but now we have grown into a platform building amazing projects and helping developers to work on real life projects to build great ideas together. I am happy to be a part on this amazing journey and I enjoy to see myself grow along with every person associated with us."
+   description:"Jugadu.in started as a platform to provide high quality digital solutions to business at affordable prices, but now we have grown into a platform which builds amazing projects and helping developers to work on real life projects to build great ideas together. I am happy to be a part on this amazing journey and I enjoy to see myself grow along with every person associated with us."
 },
 {   
     image:vasu,
@@ -73,6 +73,14 @@ const Teamcards=[{
     description:"I am currently a sophomore at Guru Tegh Bahadur Institute of Technology having majored in Computer Science and Engineering. I am currently in my third year. I have a tilted side towards Web development and Data Science and would love to work on projects related to these respective fields in the future."
 },
 {
+    image:sumit,
+    name:"Sumit Yadav",
+    Position:"Flutter Developer - Intern",
+    Location:"Lukhnow,India",
+    Link:"sumityadav",
+    description:"I am budding flutter app developer."
+},
+{
     image:arun,
     name:"Arun H",
     Position:"Django Developer - Intern",
@@ -117,7 +125,7 @@ const Teamcards=[{
     Position:"Flutter Developer - Intern",
     Location:"New Delhi,India",
     Link:"amankumar",
-    description:"Being in second i wanted to explore different fields related to information technology flutter was among the first ."
+    description:"Being a tech student I always want to explore different fields related to information technology, flutter was among the first."
 },
 {   
     image:ankita,

@@ -12,7 +12,7 @@ function dhruv(){
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 <Header />
 
-<Information  image={Teamcards[2].image} description={Teamcards[2].description} position={Teamcards[2].Position} name={Teamcards[2].name} />
+<Information  image={Teamcards[3].image} description={Teamcards[3].description} position={Teamcards[3].Position} name={Teamcards[3].name} />
 <Footer/>
     </div>
 }

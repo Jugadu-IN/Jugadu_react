@@ -16,6 +16,7 @@ import prableen from "./Ourteam/prableen.jpg";
 import georgi from "./Ourteam/georgi.jpg";
 import akshita from "./Ourteam/akshita.JPG";
 import sumit from "./Ourteam/sumit.jpg";
+import abhishek from './Ourteam/abhishek.jpeg'
 const Teamcards=[{
     image:simerneet,
    name:"Simerneet Singh",
@@ -43,7 +44,7 @@ const Teamcards=[{
 {   
     image:dhruv,
     name:"Dhruv Sahnan",
-   Position:"Server Side Developer",
+   Position:"Technical Lead",
    Location:"New Delhi,India",
    Link:"dhruv",
    description:""
@@ -57,6 +58,14 @@ const Teamcards=[{
     description:"As an artist my goal is to motivate others with my artwork."
 },
 {
+    image: abhishek,
+    name: "Abishek Dhule",
+    Position: "Django Developer",
+    Location: "Mumbai, India",
+    Link:"abhishekD",
+    description:"I recently joined Jugadu.in as a Django Developer Intern. It’s been exciting to work with jugaadu.in, every day I get to learn and explore more of web development. I expect to learn more of work ethics, better understanding of how things work in tech industry and workflow of teams on different projects."
+},
+{
     image:georgi,
     name:"Georgi Dimitrov",
     Position:"Django Developer - Intern",
@@ -64,100 +73,106 @@ const Teamcards=[{
     Link:"georgiD",
     description:"I really like Jugadu as a company. The thing that I like the most is the supportive team environment. When we have a task we don't have to do it on our own and we can depend on the rest of the team for help. Also it's great that everyone is part of the team - there are no bosses, employees and interns - everyone can share their ideas and everyone can contribute equally."
 },
-{
-    image:prableen,
-    name:"Prableen Kaur",
-    Position:"Web Developer - Intern",
-    Location:"New Delhi,India",
-    Link:"prableen",
-    description:"I am currently a sophomore at Guru Tegh Bahadur Institute of Technology having majored in Computer Science and Engineering. I am currently in my third year. I have a tilted side towards Web development and Data Science and would love to work on projects related to these respective fields in the future."
-},
-{
-    image:sumit,
-    name:"Sumit Yadav",
-    Position:"Flutter Developer - Intern",
-    Location:"Lukhnow,India",
-    Link:"sumityadav",
-    description:"I am budding flutter app developer."
-},
-{
-    image:arun,
-    name:"Arun H",
-    Position:"Django Developer - Intern",
-    Location:"Kerala,India",
-    Link:"arunH",
-    description:"I am a fourth year student at Model Engineering College, Kochi, Kerala. Django developer, loves logic, puzzles, chess and books(fiction)."
-},
-{
-    image:akshita,
-    name:"Akshita Bansal",
-    Position:"Web developer - Intern",
-    Location:"New Delhi,India",
-    Link:"akshitabansal",
-    description:"Developing amazing Websites is what I do."
-},
-{
-    image:amanjoshi,
-    name:"Aman Joshi",
-    Position:"Web developer - Intern",
-    Location:"New Delhi,India",
-    Link:"amanjoshi",
-    description:"Developing amazing Websites is what I do."
-},
-{   
-    image:gunjan,
-    name:"Gunjan",
-    Position:"Web Developer - Intern",
-    Location:"New Delhi,India",
-    Link:"gunjan",
-   description:"I am an optimistic and aggressive person who like to overcome challenges with the exceptional ability of learning and gaining knowledge. I have worked tirelessly on my communication skills and teamwork abilities, which I will put in use. In long term goal I want to be a full stack software developer."
-},
-{   image:raghav,
-    name:"Raghav Pahwa",
-    Position:"Web Developer - Intern",
-    Location:"New Delhi,India",
-    Link:"raghav",
-    description:"I like to solve real life problems with the power of code."
-},
-{   
-    image:amankumar,
-    name:"Aman Kumar",
-    Position:"Flutter Developer - Intern",
-    Location:"New Delhi,India",
-    Link:"amankumar",
-    description:"Being a tech student I always want to explore different fields related to information technology, flutter was among the first."
-},
-{   
-    image:ankita,
-    name:"Ankita Bose",
-    Position:"Flutter Developer - Intern",
-    Location:"West Bengal,India",
-    Link:"ankita",
-    description:"Final year undergraduate CSE student."
-},
-{   
-    image:vishesh,
-    name:"Vishesh Kansal",
-    Position:"Web Developer - Intern",
-    Location:"Gurgaon,India",
-    Link:"vishesh",
-    description:"I am a Full Stack Developer who loves to code and create amazing websites."
-},
-{   
-    image:nikhil,
-    name:"Nikhil Mawar",
-    Position:"UI/UX Developer - Intern",
-    Location:"New Delhi,India",
-    Link:"nikhil",
-    description:""
-},
-{   
-    image:aditya,
-    name:"Aditya Rastogi",
-    Position:"Web Developer - Intern",
-    Location:"New Delhi,India",
-    Link:"aditya",
-    description:"A programmer by heart and soul, just need a laptop and some old songs to get going!"
-}
+
 ];
-export default Teamcards;
+
+const OldTeam = [
+    {
+        image:prableen,
+        name:"Prableen Kaur",
+        Position:"Web Developer - Intern",
+        Location:"New Delhi,India",
+        Link:"prableen",
+        description:"I am currently a sophomore at Guru Tegh Bahadur Institute of Technology having majored in Computer Science and Engineering. I am currently in my third year. I have a tilted side towards Web development and Data Science and would love to work on projects related to these respective fields in the future."
+    },
+    {
+        image:sumit,
+        name:"Sumit Yadav",
+        Position:"Flutter Developer - Intern",
+        Location:"Lukhnow,India",
+        Link:"sumityadav",
+        description:"I am budding flutter app developer."
+    },
+    {
+        image:arun,
+        name:"Arun H",
+        Position:"Django Developer - Intern",
+        Location:"Kerala,India",
+        Link:"arunH",
+        description:"I am a fourth year student at Model Engineering College, Kochi, Kerala. Django developer, loves logic, puzzles, chess and books(fiction)."
+    },
+    {
+        image:akshita,
+        name:"Akshita Bansal",
+        Position:"Web developer - Intern",
+        Location:"New Delhi,India",
+        Link:"akshitabansal",
+        description:"Developing amazing Websites is what I do."
+    },
+    {
+        image:amanjoshi,
+        name:"Aman Joshi",
+        Position:"Web developer - Intern",
+        Location:"New Delhi,India",
+        Link:"amanjoshi",
+        description:"Developing amazing Websites is what I do."
+    },
+    {   
+        image:gunjan,
+        name:"Gunjan",
+        Position:"Web Developer - Intern",
+        Location:"New Delhi,India",
+        Link:"gunjan",
+       description:"I am an optimistic and aggressive person who like to overcome challenges with the exceptional ability of learning and gaining knowledge. I have worked tirelessly on my communication skills and teamwork abilities, which I will put in use. In long term goal I want to be a full stack software developer."
+    },
+    {   image:raghav,
+        name:"Raghav Pahwa",
+        Position:"Web Developer - Intern",
+        Location:"New Delhi,India",
+        Link:"raghav",
+        description:"I like to solve real life problems with the power of code."
+    },
+    {   
+        image:amankumar,
+        name:"Aman Kumar",
+        Position:"Flutter Developer - Intern",
+        Location:"New Delhi,India",
+        Link:"amankumar",
+        description:"Being a tech student I always want to explore different fields related to information technology, flutter was among the first."
+    },
+    {   
+        image:ankita,
+        name:"Ankita Bose",
+        Position:"Flutter Developer - Intern",
+        Location:"West Bengal,India",
+        Link:"ankita",
+        description:"Final year undergraduate CSE student."
+    },
+    {   
+        image:vishesh,
+        name:"Vishesh Kansal",
+        Position:"Web Developer - Intern",
+        Location:"Gurgaon,India",
+        Link:"vishesh",
+        description:"I am a Full Stack Developer who loves to code and create amazing websites."
+    },
+    {   
+        image:nikhil,
+        name:"Nikhil Mawar",
+        Position:"UI/UX Developer - Intern",
+        Location:"New Delhi,India",
+        Link:"nikhil",
+        description:""
+    },
+    {   
+        image:aditya,
+        name:"Aditya Rastogi",
+        Position:"Web Developer - Intern",
+        Location:"New Delhi,India",
+        Link:"aditya",
+        description:"A programmer by heart and soul, just need a laptop and some old songs to get going!"
+    }
+]
+
+export default Teamcards
+export {OldTeam}

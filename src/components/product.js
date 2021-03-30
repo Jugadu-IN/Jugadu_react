@@ -1,4 +1,6 @@
-import icon1 from './Services.png';
+import icon1 from './visit_2.jpg';
+import logo from './logo.png'
+import icon2 from './visit_3.jpg';
 
 
 
@@ -15,7 +17,7 @@ const Product = [
     {
         title:"JUGADU BOOST" , 
         desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        banner:icon1,
+        banner:icon2,
         link:"/jugaduBoost"
     }
 ];

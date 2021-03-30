@@ -36,9 +36,9 @@ function Header(){
       <Link to="/"><ReactBootStrap.Nav className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}} >Home</ReactBootStrap.Nav></Link>
       <Link to="/aboutus"><ReactBootStrap.Nav   className="pr-5 pt-1"style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>About</ReactBootStrap.Nav></Link> 
       <Link to="/services"><ReactBootStrap.Nav   className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>Services </ReactBootStrap.Nav></Link>
-      <Link to="/contact"><ReactBootStrap.Nav  className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>Contact</ReactBootStrap.Nav></Link>
+      {/* <Link to="/contact"><ReactBootStrap.Nav  className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>Contact</ReactBootStrap.Nav></Link> */}
       <Link to="/ourteam"> <ReactBootStrap.Nav  className="pr-5 pt-1" style={{color:"#002e5b",fontFamily: "'Open Sans', sans-serif"}}>Our Team</ReactBootStrap.Nav></Link>
-     <Link to="/contact"> <ReactBootStrap.Button onMouseOver={handler} onMouseLeave={handler} style={{backgroundColor:"#4043BC",fontFamily: "'Open Sans', sans-serif"}} type="button" className="button btn btn-lg btn-primary">Contact Us</ReactBootStrap.Button></Link>
+     {/* <Link to="/contact"> <ReactBootStrap.Button onMouseOver={handler} onMouseLeave={handler} style={{backgroundColor:"#4043BC",fontFamily: "'Open Sans', sans-serif"}} type="button" className="button btn btn-lg btn-primary">Contact Us</ReactBootStrap.Button></Link> */}
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>

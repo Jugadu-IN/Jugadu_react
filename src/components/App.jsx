@@ -39,6 +39,7 @@ import ScrollToTop from "./ScrollToTop.js";
 import amanjoshi from "./Teaminfo/amanjoshi.js";
 import Red from './Red.jsx'
 import Boost from './Boost.jsx'
+import CardSection from './BoostCardSection'
 
 function App(){
     return <div>
@@ -73,7 +74,7 @@ function App(){
       <Route path="/sumityadav" component={sumit} />
       <Route path="/amanjoshi" component={amanjoshi} />
       <Route path="/jugaduRed" component={Red}/>
-      <Route path="/jugaduBoost" component={Boost}/>
+      <Route path="/jugaduBoost" component={CardSection}/>
    </Switch>
 
 

@@ -5,6 +5,7 @@ import icon2 from './visit_3.jpg';
 
 
 
+
 const Product = [
     {
         title:"JUGADU RED" , 

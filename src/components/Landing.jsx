@@ -18,7 +18,7 @@ return <div className="container">
 </p> 
 </div> 
 <div>
-<Link to="/contact"><ReactBootStrap.Button className="w3-animate-left" style={{backgroundColor:"#c77b00",fontSize:"16px", padding: "30px 56px", lineHeight: "0",marginTop:"40px"}} size="lg" >Contact Us</ReactBootStrap.Button>{' '}</Link>
+{/* <Link to="/contact"><ReactBootStrap.Button className="w3-animate-left" style={{backgroundColor:"#c77b00",fontSize:"16px", padding: "30px 56px", lineHeight: "0",marginTop:"40px"}} size="lg" >Contact Us</ReactBootStrap.Button>{' '}</Link> */}
 </div>
     </div>
    <div className="col-lg-6">

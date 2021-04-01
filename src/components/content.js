@@ -35,10 +35,10 @@ const content=[{
     image:branding,
     link:"/brandingdev"
 },
-{
-    title:"COMING SOON",
-    description:"Make your business a brand with the most suitable logo to branded mechandise and everything in between.",
-    image:plus
-}
+// {
+//     title:"COMING SOON",
+//     description:"Make your business a brand with the most suitable logo to branded mechandise and everything in between.",
+//     image:plus
+// }
 ];
 export default content;

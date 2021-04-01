@@ -20,7 +20,7 @@ function Home(){
 <Header />
 <Landing />
 <Business />
-<Contact />
+{/* <Contact /> */}
 <WhyUs />
 <Workdone />
 <Testimonials />

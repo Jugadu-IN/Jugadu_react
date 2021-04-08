@@ -2,9 +2,10 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+
 const ProductCard = (props) => (
   <div className="productCard">
-    <Card style={{ width: "18rem" }} bg="light">
+    <Card className="card" style={{ width: "18rem" }} bg="light">
       <Card.Img variant="top" src={props.pic} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

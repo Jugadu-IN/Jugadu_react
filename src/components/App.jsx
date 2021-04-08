@@ -50,7 +50,7 @@ function App(){
        <Route path="/services" component={Services} />
        <Route path="/contact" component={ContactUs} />
        <Route path="/ourteam" component={Ourteam} />
-       <Route path="/webdev" component={webdev} />
+       <Route path="/webdev" component={CardSection} />
        <Route path="/appdev" component={Appdev}/>
        <Route path="/iotdev" component={Iotdev} />
        <Route path="/seodev" component={Seodev} />

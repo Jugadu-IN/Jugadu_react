@@ -7,12 +7,26 @@ import {FaMobileAlt} from "react-icons/fa";
 import {AiOutlineMail} from "react-icons/ai";
 import Inmind from "./Inmind";
 import Footer from "./Footer";
+import emailjs from 'emailjs-com';
 
 
 
 
-function ContactUs(){
-    return <div className="container">
+const ContactUs=()=>{
+
+  const sendEmail=(e)=>{
+    e.preventDefault();
+
+    emailjs.sendForm('service_o7hbaoz', 'template_xrpe5qg', e.target, 'user_biAekCCrPShS6qzPz4MQq')
+      .then((result) => {
+          console.log(result.text); 
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
+
+    return (<div className="container">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 <Header />
 <div className="container">
@@ -25,25 +39,25 @@ function ContactUs(){
 </div>
 <div className="row">
 <div className="col-lg-9">
-<ReactBootStrap.Form>
+<ReactBootStrap.Form onSubmit={sendEmail}>
 
 <ReactBootStrap.Form.Group style={{height:"190px"}} controlId="exampleForm.ControlTextarea1">
     <ReactBootStrap.Form.Label className="pl-2"></ReactBootStrap.Form.Label>
-    <ReactBootStrap.Form.Control as="textarea" rows="8" />
+    <ReactBootStrap.Form.Control as="textarea" rows="8" name="message" />
   </ReactBootStrap.Form.Group>
   <ReactBootStrap.Row className="pt-5">
     <ReactBootStrap.Col>
-      <ReactBootStrap.Form.Control placeholder="First name" />
+      <ReactBootStrap.Form.Control placeholder="First name"  name="name" />
     </ReactBootStrap.Col>
     <ReactBootStrap.Col>
-      <ReactBootStrap.Form.Control placeholder="Email" />
+      <ReactBootStrap.Form.Control placeholder="Email" name="email" />
     </ReactBootStrap.Col>
   </ReactBootStrap.Row>
   <ReactBootStrap.Form.Group controlId="formGroupEmail">
     <ReactBootStrap.Form.Label></ReactBootStrap.Form.Label>
-    <ReactBootStrap.Form.Control type="email" placeholder="Enter Subject" />
+    <ReactBootStrap.Form.Control type="text" placeholder="Enter Subject" name="subject" />
   </ReactBootStrap.Form.Group>
-  <ReactBootStrap.Button variant="warning" style={{padding:"18px 44px",color:"orange",backgroundColor:"white"}}>S E N D</ReactBootStrap.Button>{' '}
+  <ReactBootStrap.Button type="submit" variant="warning" style={{padding:"18px 44px",color:"orange",backgroundColor:"white"}}>S E N D</ReactBootStrap.Button>{' '}
   
 
 </ReactBootStrap.Form>
@@ -65,6 +79,6 @@ function ContactUs(){
 </div>
 <Inmind />
 <Footer />
-</div>
+</div>)
 }
 export default ContactUs;

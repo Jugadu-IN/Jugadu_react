@@ -1,0 +1,11 @@
+@media only screen and  (max-width: 500px) {
+   .product-section {
+      flex-direction: column;
+     
+      
+    }
+
+    .productCard{
+      margin-top:20px;
+    }
+  }

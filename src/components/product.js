@@ -9,7 +9,7 @@ import icon2 from './visit_3.jpg';
 const Product = [
     {
         title:"JUGADU RED" , 
-        desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        desc:"Elevate your Ideas beyond the ordinary",
         banner:icon1,
         link:"/jugaduRed"
 
@@ -17,7 +17,7 @@ const Product = [
 
     {
         title:"JUGADU BOOST" , 
-        desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        desc:"Take Your Business to the next level with Boost",
         banner:icon2,
         link:"/jugaduBoost"
     }
